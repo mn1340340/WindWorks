@@ -19,7 +19,7 @@ class Boat(pygame.sprite.Sprite):
         super().__init__()
         # Attributes
         self.image = pygame.image.load(filename).convert()
-        #color key to create transperency 
+        # colour key to create transparency 
         self.bgcolor = WHITE
         self.pos = [50, 230]       # Default position
         self.speed = [0, 0]
@@ -78,7 +78,7 @@ class obstacles(pygame.sprite.Sprite):
         super().__init__()
         # Attributes
         self.image = pygame.image.load(filename).convert()
-        #color key to create transperency 
+        #color key to create transparency 
         self.bgcolor = BLACK
         self.pos = [50, 230]       # Default position
         self.speed = [0, 0]
@@ -138,7 +138,7 @@ def set():
         coin.speed[0] = random.choice(speed_list)
         coin_list.add(coin)
 
-    #start framecounter and seconds before main loop
+    #start frame counter and seconds before main loop
     frames = 0
     second = 60
     return coin_list, all, life, coins_collected, score, boat, croc, mylog, coin, frames, second
@@ -206,7 +206,7 @@ while not done:
         screen.blit(notplaying, [0, 0])
         text_title = font_big.render("WINDWORKS!", True, BLACK) 
         screen.blit(text_title, [220, 200])
-        text_blurb = font_mid1.render("power your boat using a sustainbale energy source, ", True, BLACK) 
+        text_blurb = font_mid1.render("power your boat using a sustainable energy source, ", True, BLACK) 
         text_blurb1=font_mid1.render("wind, to reach your destination safely!", True, BLACK)
         screen.blit(text_blurb, [120, 320])
         screen.blit(text_blurb1, [230, 340])
