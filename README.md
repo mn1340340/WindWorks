@@ -3,7 +3,8 @@ Infinite-runner style game. Players use wind energy to move their boat through o
 
 Made using [python-pygame](https://www.pygame.org/news)
 ## Demo
-https://github.com/user-attachments/assets/9838c06f-e95f-416d-9f3e-10095f8a7f43
+
+[Windworks Demo.webm](https://github.com/user-attachments/assets/a85d72bf-4171-44cb-8bee-88f06d2be27c)
 
 
 note: written in 2022 for ICS3UC, uploaded to github 2025
